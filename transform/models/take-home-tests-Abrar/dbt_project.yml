@@ -1,0 +1,14 @@
+name: 'jaffle-shop'
+version: '1.0.0'
+config-version: 2
+
+profile: 'test-example' # for connection to data warehouse
+
+model-paths: ['models']
+
+models:
+    +persist_docs: # for the table and column descriptions to show on DB
+    jaffle_shop:
+    +materialized: table
+        relation: true
+        columns: true

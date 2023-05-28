@@ -1,0 +1,12 @@
+models:
+  - name: q3
+    description: >
+      Answer to Q3 of take home test
+    
+    columns:
+      - Country_name
+        description: Name of country of selected Vendors
+      - vendor_name
+        description: Name of top Vendors with highest gmv
+      - total_gmv
+        description: GMV calculated for each country.

@@ -1,0 +1,12 @@
+models:
+  - name: q2
+    description: >
+      Answer to Q2 of take home test
+    
+    columns:
+      - vendor_name
+        description: Name of country.
+      - customer count
+        description: Number of customers from each of the selected countries in descending order
+      - total_gmv
+        description: GMV calculated for each country.
